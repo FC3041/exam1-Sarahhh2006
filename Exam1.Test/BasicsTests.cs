@@ -192,9 +192,9 @@ public class BasicsTests
     [TestMethod]
     public void Q6_Temperature_AllCases()
     {
-        // Assert.Inconclusive();
+        Assert.Inconclusive();
 
-        var temp = new Q6Temperature();
+        // var temp = new Q6Temperature();
 
         // Case 1: set Celsius → Fahrenheit
     //     temp.Celsius = 0.0;
@@ -220,23 +220,23 @@ public class BasicsTests
     //     temp.Celsius = 37.0;
     //     Assert.AreEqual(98.6, temp.Fahrenheit,  1e-6, "37°C should be approximately 98.6°F");
         
-    // }    
-    // [TestMethod]
-    // public void Q7_Shapes_AllCases()
-    // {
-    //     // Assert.Inconclusive();
+    }    
+    [TestMethod]
+    public void Q7_Shapes_AllCases()
+    {
+        Assert.Inconclusive();
 
-    //     // --- Circle: radius = 2.0 ---
-    //     var c = new Q7Circle(2.0);
-    //     Assert.AreEqual(Math.PI * 4.0,     c.GetArea(),      1e-6, "Circle area");
-    //     Assert.AreEqual(2 * Math.PI * 2.0, c.GetPerimeter(), 1e-6, "Circle perimeter");
+        // // --- Circle: radius = 2.0 ---
+        // var c = new Q7Circle(2.0);
+        // Assert.AreEqual(Math.PI * 4.0,     c.GetArea(),      1e-6, "Circle area");
+        // Assert.AreEqual(2 * Math.PI * 2.0, c.GetPerimeter(), 1e-6, "Circle perimeter");
 
-    //     // --- Rectangle: width = 3.0, height = 4.0 ---
-    //     var r = new Q7Rectangle(3.0, 4.0);
-    //     Assert.AreEqual(12.0, r.GetArea(),      1e-6, "Rectangle area");
-    //     Assert.AreEqual(14.0, r.GetPerimeter(), 1e-6, "Rectangle perimeter");
+        // // --- Rectangle: width = 3.0, height = 4.0 ---
+        // var r = new Q7Rectangle(3.0, 4.0);
+        // Assert.AreEqual(12.0, r.GetArea(),      1e-6, "Rectangle area");
+        // Assert.AreEqual(14.0, r.GetPerimeter(), 1e-6, "Rectangle perimeter");
 
-        // --- Total area of multiple shapes ---
+        // // --- Total area of multiple shapes ---
         // IShape[] shapes = {
         //     new Q7Circle(1.0),    // area = π
         //     new Q7Rectangle(2,5)  // area =  10
